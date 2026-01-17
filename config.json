@@ -1,0 +1,13 @@
+{
+  "project_title": "Partner Lead Monitor",
+  "goal": "Score partner leads and identify follow-up needs.",
+  "entity_name": "lead",
+  "amount_label": "potential_value",
+  "score_label": "quality_score",
+  "categories": [
+    "reseller",
+    "integrator",
+    "affiliate",
+    "agency"
+  ]
+}

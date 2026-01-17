@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "lead-01",
+      "name": "lead_01",
+      "category": "reseller",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "lead-02",
+      "name": "lead_02",
+      "category": "integrator",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "lead-03",
+      "name": "lead_03",
+      "category": "affiliate",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "lead-04",
+      "name": "lead_04",
+      "category": "agency",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "lead-05",
+      "name": "lead_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "lead-06",
+      "name": "lead_06",
+      "category": "integrator",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "lead-07",
+      "name": "lead_07",
+      "category": "affiliate",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "lead-08",
+      "name": "lead_08",
+      "category": "agency",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "lead-09",
+      "name": "lead_09",
+      "category": "reseller",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "lead-10",
+      "name": "lead_10",
+      "category": "integrator",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "lead-11",
+      "name": "lead_11",
+      "category": "affiliate",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "lead-12",
+      "name": "lead_12",
+      "category": "agency",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "lead-12",
+    "issue_count": 1
+  }
+}
